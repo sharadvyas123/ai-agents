@@ -34,5 +34,16 @@ GOOGLE_API_KEY='your_google_api_key'
 
 6. run the agents and explore and chatbot as well
 
+# one note if you have openai api key then
+
+change the imports from
+```python
+from langchain_google_genai import ChatGoogleGenerativeAI
+# to
+from langchain_openai import ChatOpenAI
+```
+
+and then go on
+
 
 ### by the way the api key in this repo is closed so you need to use your own api key :D
